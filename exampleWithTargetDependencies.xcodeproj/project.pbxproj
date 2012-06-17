@@ -20,6 +20,8 @@
 		40D36136158E15A10000DB35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D36117158E15A10000DB35 /* Foundation.framework */; };
 		40D3613E158E15A10000DB35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40D3613C158E15A10000DB35 /* InfoPlist.strings */; };
 		40D36141158E15A10000DB35 /* exampleWithTargetDependenciesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D36140158E15A10000DB35 /* exampleWithTargetDependenciesTests.m */; };
+		40D3614C158E15E30000DB35 /* IGSimpleHelloWorldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D3614B158E15E30000DB35 /* IGSimpleHelloWorldGenerator.m */; };
+		40D3614F158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D3614E158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,25 @@
 		40D36115158E15A10000DB35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40D36117158E15A10000DB35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40D36119158E15A10000DB35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		40D3611D158E15A10000DB35 /* exampleWithTargetDependencies-Info.plist */ = {isa = PBXFileReference; path = "exampleWithTargetDependencies-Info.plist"; sourceTree = "<group>"; };
+		40D3611D158E15A10000DB35 /* exampleWithTargetDependencies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exampleWithTargetDependencies-Info.plist"; sourceTree = "<group>"; };
 		40D3611F158E15A10000DB35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40D36121158E15A10000DB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40D36123158E15A10000DB35 /* exampleWithTargetDependencies-Prefix.pch */ = {isa = PBXFileReference; path = "exampleWithTargetDependencies-Prefix.pch"; sourceTree = "<group>"; };
-		40D36124158E15A10000DB35 /* IGAppDelegate.h */ = {isa = PBXFileReference; path = IGAppDelegate.h; sourceTree = "<group>"; };
+		40D36123158E15A10000DB35 /* exampleWithTargetDependencies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exampleWithTargetDependencies-Prefix.pch"; sourceTree = "<group>"; };
+		40D36124158E15A10000DB35 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
 		40D36125158E15A10000DB35 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
-		40D36127158E15A10000DB35 /* IGViewController.h */ = {isa = PBXFileReference; path = IGViewController.h; sourceTree = "<group>"; };
+		40D36127158E15A10000DB35 /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
 		40D36128158E15A10000DB35 /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
 		40D3612B158E15A10000DB35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IGViewController.xib; sourceTree = "<group>"; };
 		40D36132158E15A10000DB35 /* exampleWithTargetDependenciesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleWithTargetDependenciesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D36133158E15A10000DB35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		40D3613B158E15A10000DB35 /* exampleWithTargetDependenciesTests-Info.plist */ = {isa = PBXFileReference; path = "exampleWithTargetDependenciesTests-Info.plist"; sourceTree = "<group>"; };
+		40D3613B158E15A10000DB35 /* exampleWithTargetDependenciesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exampleWithTargetDependenciesTests-Info.plist"; sourceTree = "<group>"; };
 		40D3613D158E15A10000DB35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40D3613F158E15A10000DB35 /* exampleWithTargetDependenciesTests.h */ = {isa = PBXFileReference; path = exampleWithTargetDependenciesTests.h; sourceTree = "<group>"; };
+		40D3613F158E15A10000DB35 /* exampleWithTargetDependenciesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exampleWithTargetDependenciesTests.h; sourceTree = "<group>"; };
 		40D36140158E15A10000DB35 /* exampleWithTargetDependenciesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleWithTargetDependenciesTests.m; sourceTree = "<group>"; };
+		40D3614A158E15E30000DB35 /* IGSimpleHelloWorldGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSimpleHelloWorldGenerator.h; sourceTree = "<group>"; };
+		40D3614B158E15E30000DB35 /* IGSimpleHelloWorldGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSimpleHelloWorldGenerator.m; sourceTree = "<group>"; };
+		40D3614D158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSimpleHelloWorldGeneratorTest.h; sourceTree = "<group>"; };
+		40D3614E158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSimpleHelloWorldGeneratorTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 				40D36127158E15A10000DB35 /* IGViewController.h */,
 				40D36128158E15A10000DB35 /* IGViewController.m */,
 				40D3612A158E15A10000DB35 /* IGViewController.xib */,
+				40D3614A158E15E30000DB35 /* IGSimpleHelloWorldGenerator.h */,
+				40D3614B158E15E30000DB35 /* IGSimpleHelloWorldGenerator.m */,
 				40D3611C158E15A10000DB35 /* Supporting Files */,
 			);
 			path = exampleWithTargetDependencies;
@@ -137,6 +145,8 @@
 			children = (
 				40D3613F158E15A10000DB35 /* exampleWithTargetDependenciesTests.h */,
 				40D36140158E15A10000DB35 /* exampleWithTargetDependenciesTests.m */,
+				40D3614D158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.h */,
+				40D3614E158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.m */,
 				40D3613A158E15A10000DB35 /* Supporting Files */,
 			);
 			path = exampleWithTargetDependenciesTests;
@@ -262,6 +272,7 @@
 				40D36122158E15A10000DB35 /* main.m in Sources */,
 				40D36126158E15A10000DB35 /* IGAppDelegate.m in Sources */,
 				40D36129158E15A10000DB35 /* IGViewController.m in Sources */,
+				40D3614C158E15E30000DB35 /* IGSimpleHelloWorldGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D36141158E15A10000DB35 /* exampleWithTargetDependenciesTests.m in Sources */,
+				40D3614F158E15FD0000DB35 /* IGSimpleHelloWorldGeneratorTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

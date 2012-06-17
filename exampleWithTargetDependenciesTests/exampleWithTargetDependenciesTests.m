@@ -24,9 +24,9 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in exampleWithTargetDependenciesTests");
-}
+//- (void)testExample
+//{
+//    STFail(@"Unit tests are not implemented yet in exampleWithTargetDependenciesTests");
+//}
 
 @end
